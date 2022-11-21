@@ -1,0 +1,118 @@
+<!-- To become a valid HTML document we need to add <!DOCTYPE html> -->
+<!-- This tells the document is made with html5 and It tells the version of html document -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML DOC</title>
+    </head>
+    <body>
+        <a href="#listsSection">
+            <p>Take me to lists</p>
+        </a>
+        <!-- There are 4 major text tags -->
+................................................................................
+        <!-- 1.Headings -->
+        <!-- HTML Headings are titles or subtitles that you want to display on the a WebPage -->
+       <!-- HTML has 6 different heading tags -->
+       <h1>This is the biggest Heading</h1>
+       <h2>This is smaller than h1</h2>
+       <h3>This is smaller than h2</h3>
+       <h4>This is smaller than h3</h4>
+       <h5>This is tiny</h5>
+       <h6>This is even tinier</h6>
+       <!-- The sizes of headings are already set we can change font size using css-->
+       <!-- <h1> is most important and <h6> is the least important headings -->
+.................................................................................
+       
+        <!-- 2.Paragraphs -->
+        <!-- The HTML <p> element defines a paragrap -->
+        <!-- A paragraph always starts with a new line and -->
+        <!-- Browsers automatically add some white space(a margin) before and after a paragraph -->
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Esse sit voluptatem sint optio autem suscipit laborum aperiam,
+            <br/>
+            minus in doloremque ducimus alias accusantium aliquam,
+            <!-- The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+The <hr> element is used to separate content (or define a change) in an HTML page -->
+            <hr>
+             excepturi ex iste nemo nobis consequuntur?</p>
+        <!-- How much white space we put in our code between closing and ending tags
+            . it will not affect the output -->
+        <!-- Therefore HTML is called white space insensitivity -->
+        <!-- To break sentence we have<br/> -->
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque architecto labore consequatur quae fuga sapiente nobis laborum? Ipsa pariatur iste libero molestias laborum excepturi nisi similique culpa deleniti? Vero, repellendus.</p>
+             
+            <pre>
+                Johny, Johny
+                Yes papa
+               <b> eating sugar</b>
+               <!-- <b> element defines the bold text -->
+                <i>No papa</i>  
+                <!-- <i> element defines the content will display in italic -->
+               <u> Open  your mouth </u>
+               <!-- <u> element defines the text with underline -->
+                hahaha...
+            </pre>
+        .................................................................................
+        <!-- 3.Lists -->
+        <!-- HTML lists allow web developers to group a set of related items in Lists -->
+       <!-- 1. Ordered lists -->
+       <!-- These are the lists with numbers.We can convert into alphabets susing css -->
+        <ol id="listsSection">
+            <!-- id="" attribute will give a unique id to element -->
+            <li><p>Item one</p></li>
+            <!-- good practice to a piece of text should wrap it with paragraph tag  -->
+            <li><p>Item two</p></li>
+            <li><p>Item three</p></li>
+        </ol>
+    <!-- 2. Unordered lists -->
+    <!-- These are the lists with bullets -->
+    <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+    <!-- 3.Description lists -->
+    <!-- These are the lists that defines a list -->
+    <!-- <dt></dt> defines a term in DL -->
+    <!-- <dd></dd> describes a term in DL-->
+
+    <dl>
+        <dt>Flour</dt>
+        <dd>95gms</dd>
+        <dt>Sugar</dt>
+        <dd>2 tpsp</dd>`
+    </dl>
+    <!-- 4. Nested lists -->
+    <!-- These are the lists that contain another lists -->
+    <ul>
+        <li>Powders</li>
+        <ol>
+            <li>Cocoa Powder</li>
+            <li>Baking Powder</li>
+        </ol>
+    </ul>
+        <!-- 4.Links -->
+        <!-- HTML links are hyperlinks. These are used to move from one page to another page -->
+        <!-- There are 3 types -->
+        <!-- 1.Link to exertenal website -->
+        <!-- <a> tag defines the hyperlinks -->
+            <!-- href is an attribute. It is hypertext reference which indicates links destination -->
+        <a href="https://www.google.com">
+            <p>Click Here</p>
+        </a>
+        <!-- 2. Link to another page in our website-->
+        <a href="about.html">
+            <p>Go to About Page</p>
+        </a>
+        <!-- 3. link to another section in same page -->
+       <!-- line no. 9 -->
+    </body>
+</html>
+<!-- 
+Notes:
+1) There are two types are tags
+a.opening and closing tags
+<tag>information</tag>
+b.Self closing tag
+<tag/>--which doesn't need any content. -->
